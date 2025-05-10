@@ -1,0 +1,48 @@
+2025-05-10 13:34:18,155 - app.main - ERROR - Error importing RAG wrapper: No module named 'langchain_community'
+2025-05-10 13:34:18,157 - app.main - INFO - Successfully imported storage service
+2025-05-10 13:34:18,158 - app.services.storage - INFO - SQLite database initialized at ./data/conversations.db  # Path for SQLite database
+2025-05-10 13:34:18,158 - app.main - INFO - Using SQLite for conversation storage at ./data/conversations.db  # Path for SQLite database
+2025-05-10 13:34:18,162 - app.security.security_integration - INFO - Security components initialized
+2025-05-10 13:34:18,163 - app.secured_endpoints - INFO - Secured endpoints added to application
+2025-05-10 13:34:18,163 - app.main - INFO - Configuring CORS for origins: ['http://localhost:5173', 'https://yourdomain.com  # Comma-separated list of allowed origins']
+2025-05-10 13:34:18,165 - slowapi - ERROR - Failed to configure throttling for app.main.chat (couldn't parse rate limit string '20/minute  # Rate limit for API requests (requests/time period)')
+2025-05-10 13:34:18,167 - app.secured_endpoints - INFO - Secured endpoints added to application
+2025-05-10 13:34:18,167 - app.main - INFO - Secured endpoints registered
+2025-05-10 13:34:18,170 - app.security.security_integration - INFO - Security components initialized
+2025-05-10 13:34:18,170 - __main__ - INFO - Security components initialized
+2025-05-10 13:35:34,597 - app.main - ERROR - Error importing RAG wrapper: No module named 'langchain_community'
+2025-05-10 13:35:34,597 - app.main - INFO - Successfully imported storage service
+2025-05-10 13:35:34,597 - app.services.storage - INFO - SQLite database initialized at ./data/conversations.db  # Path for SQLite database
+2025-05-10 13:35:34,598 - app.main - INFO - Using SQLite for conversation storage at ./data/conversations.db  # Path for SQLite database
+2025-05-10 13:35:34,601 - app.security.security_integration - INFO - Security components initialized
+2025-05-10 13:35:34,602 - app.secured_endpoints - INFO - Secured endpoints added to application
+2025-05-10 13:35:34,602 - app.main - INFO - Configuring CORS for origins: ['http://localhost:5173', 'https://yourdomain.com  # Comma-separated list of allowed origins']
+2025-05-10 13:35:34,604 - slowapi - ERROR - Failed to configure throttling for app.main.chat (couldn't parse rate limit string '20/minute  # Rate limit for API requests (requests/time period)')
+2025-05-10 13:35:34,606 - app.secured_endpoints - INFO - Secured endpoints added to application
+2025-05-10 13:35:34,606 - app.main - INFO - Secured endpoints registered
+2025-05-10 13:35:34,609 - app.security.security_integration - INFO - Security components initialized
+2025-05-10 13:35:34,609 - __main__ - INFO - Security components initialized
+2025-05-10 13:37:53,300 - app.main - ERROR - Error importing RAG wrapper: No module named 'langchain_community'
+2025-05-10 13:37:53,301 - app.main - INFO - Successfully imported storage service
+2025-05-10 13:37:53,301 - app.services.storage - INFO - SQLite database initialized at ./data/conversations.db  # Path for SQLite database
+2025-05-10 13:37:53,301 - app.main - INFO - Using SQLite for conversation storage at ./data/conversations.db  # Path for SQLite database
+2025-05-10 13:37:53,304 - app.security.security_integration - INFO - Security components initialized
+2025-05-10 13:37:53,306 - app.secured_endpoints - INFO - Secured endpoints added to application
+2025-05-10 13:37:53,306 - app.main - INFO - Configuring CORS for origins: ['http://localhost:5173', 'https://yourdomain.com  # Comma-separated list of allowed origins']
+2025-05-10 13:37:53,308 - slowapi - ERROR - Failed to configure throttling for app.main.chat (couldn't parse rate limit string '20/minute  # Rate limit for API requests (requests/time period)')
+2025-05-10 13:37:53,310 - app.secured_endpoints - INFO - Secured endpoints added to application
+2025-05-10 13:37:53,310 - app.main - INFO - Secured endpoints registered
+2025-05-10 13:37:53,313 - app.security.security_integration - INFO - Security components initialized
+2025-05-10 13:37:53,313 - __main__ - INFO - Security components initialized
+2025-05-10 13:38:47,851 - app.main - ERROR - Error importing RAG wrapper: No module named 'langchain_community'
+2025-05-10 13:38:47,852 - app.main - INFO - Successfully imported storage service
+2025-05-10 13:38:47,852 - app.services.storage - INFO - SQLite database initialized at ./data/conversations.db  # Path for SQLite database
+2025-05-10 13:38:47,852 - app.main - INFO - Using SQLite for conversation storage at ./data/conversations.db  # Path for SQLite database
+2025-05-10 13:38:47,855 - app.security.security_integration - INFO - Security components initialized
+2025-05-10 13:38:47,857 - app.secured_endpoints - INFO - Secured endpoints added to application
+2025-05-10 13:38:47,857 - app.main - INFO - Configuring CORS for origins: ['http://localhost:5173', 'https://yourdomain.com  # Comma-separated list of allowed origins']
+2025-05-10 13:38:47,859 - slowapi - ERROR - Failed to configure throttling for app.main.chat (couldn't parse rate limit string '20/minute  # Rate limit for API requests (requests/time period)')
+2025-05-10 13:38:47,861 - app.secured_endpoints - INFO - Secured endpoints added to application
+2025-05-10 13:38:47,861 - app.main - INFO - Secured endpoints registered
+2025-05-10 13:38:47,864 - app.security.security_integration - INFO - Security components initialized
+2025-05-10 13:38:47,864 - __main__ - INFO - Security components initialized

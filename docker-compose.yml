@@ -1,0 +1,30 @@
+version: '3.8'
+
+services:
+  api:
+    build: .
+    volumes:
+      - ./:/app
+    ports:
+      - "8000:8000"
+    environment:
+      - ENVIRONMENT=development
+      - PORT=8000
+      - ALLOWED_ORIGINS=http://localhost:5173
+      - STORAGE_TYPE=sqlite
+      - SQLITE_PATH=./data/conversations.db
+      - LOG_DIR=./logs
+      - LOG_LEVEL=INFO
+    command: uvicorn app.main:app --host 0.0.0.0 --port 8000 --reload
+    depends_on:
+      - redis
+
+  redis:
+    image: redis:alpine
+    ports:
+      - "6379:6379"
+    volumes:
+      - redis-data:/data
+
+volumes:
+  redis-data:

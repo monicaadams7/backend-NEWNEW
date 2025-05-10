@@ -1,0 +1,25 @@
+# Core dependencies
+fastapi>=0.95.0
+uvicorn>=0.23.0
+pydantic>=2.0.0
+python-dotenv>=1.0.0
+
+# Rate limiting
+slowapi>=0.1.7
+
+# Storage backends
+redis>=5.0.0  # Optional: Only needed if using Redis storage
+
+# Testing
+pytest>=7.3.1
+pytest-asyncio>=0.21.0
+httpx>=0.24.0  # Required for TestClient
+
+# Utilities
+python-multipart>=0.0.6  # For handling form data
+email-validator>=2.0.0  # For email validation
+
+# Production
+gunicorn>=21.0.0  # For production deployment
+uvloop>=0.17.0   # Optional: Performance improvement for uvicorn
+httptools>=0.5.0  # Optional: Performance improvement for uvicorn

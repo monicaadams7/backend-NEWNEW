@@ -1,0 +1,39 @@
+version: '3.8'
+
+services:
+  api:
+    build: .
+    restart: always
+    ports:
+      - "8000:8000"
+    environment:
+      - ENVIRONMENT=production
+      - PORT=8000
+      - ALLOWED_ORIGINS=https://yourdomain.com
+      - STORAGE_TYPE=redis
+      - REDIS_URL=redis://redis:6379/0
+      - LOG_DIR=/app/logs
+      - LOG_LEVEL=INFO
+    volumes:
+      - logs:/app/logs
+    depends_on:
+      - redis
+    networks:
+      - app-network
+
+  redis:
+    image: redis:alpine
+    restart: always
+    volumes:
+      - redis-data:/data
+    networks:
+      - app-network
+    command: redis-server --appendonly yes
+
+networks:
+  app-network:
+    driver: bridge
+
+volumes:
+  redis-data:
+  logs:

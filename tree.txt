@@ -1,0 +1,43 @@
+.
+├── Dockerfile
+├── README.md
+├── app
+│   ├── __init__.py
+│   ├── api
+│   │   ├── __init__.py
+│   │   └── v1
+│   │       ├── __init__.py
+│   │       ├── chat.py
+│   │       └── system.py
+│   ├── config.py
+│   ├── main.py
+│   ├── middleware
+│   │   ├── __init__.py
+│   │   └── logging.py
+│   ├── models
+│   │   ├── __init__.py
+│   │   ├── chat.py
+│   │   └── system.py
+│   ├── services
+│   │   ├── __init__.py
+│   │   └── storage.py
+│   └── utils
+│       ├── __init__.py
+│       ├── security.py
+│       └── validation.py
+├── data
+├── docker-compose.prod.yml
+├── docker-compose.yml
+├── docs
+│   └── frontend_backend_contract.md
+├── logs
+│   └── fitgpt.log
+├── requirements.txt
+├── tests
+│   ├── __init__.py
+│   ├── conftest.py
+│   ├── test_api.py
+│   └── test_services.py
+└── tree.txt
+
+12 directories, 29 files
